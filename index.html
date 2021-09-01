@@ -31,6 +31,10 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
+
+                <div class="col-md-4 col-xl-2 mt-4">
+                    <a href="#reserveForm"  class="btn btn-info">Reserve Campsite</a>
+                </div>
             </div>
         </div>
     </header>
@@ -104,7 +108,7 @@
                 <div class="card">
                     <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
                     <div class="card-body">
-                        <form action="">
+                        <form id="reserveForm">
                             <div class="row">
                                 <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
                                 <div class="col">
@@ -123,7 +127,7 @@
                             <div class="row pt-3">
                                 <label for="date" class="col-sm-6 col-form-label">Date</label>
                                 <div class="col">
-                                    <input type="date" name="date" id="date" placeholder="" class="form-control">
+                                    <input type="date" name="date" id="date" class="form-control">
                                 </div>
                             </div>
 
@@ -170,7 +174,9 @@
                         <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
                         <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
                     </div>
+                </div>
             </div>
+
     </footer >
 
      <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
