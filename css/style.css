@@ -14,7 +14,7 @@ h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
 
-h2 {
+h2,h3 {
     color: #3046C5;
 }
 
@@ -50,4 +50,10 @@ a, a:hover {
 
 .carousel {
     border: solid #5637DD;
+}
+
+footer .list-unstyled, 
+ .links a {
+    color: #5637DD;
+    font-weight: bold;
 }
