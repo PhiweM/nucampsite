@@ -57,3 +57,10 @@ footer .list-unstyled,
     color: #5637DD;
     font-weight: bold;
 }
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
