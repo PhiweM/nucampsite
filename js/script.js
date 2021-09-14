@@ -1,4 +1,4 @@
-const { Modal } = require("bootstrap");
+// const { Modal } = require("bootstrap");
 
 $(function() {
     $(".carousel").carousel( { interval: 2000 } );
@@ -14,8 +14,11 @@ $(function() {
         }
     });
 
-    
-     
-    
-  
+    $("#loginButton").click(function () {
+        $("#loginModal").modal("show");
+    });
+    $("#reserveButton").click(function (){
+        $("#reserveModal").modal("show");
+    });  
+
 });
