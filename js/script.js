@@ -1,3 +1,5 @@
+const { Modal } = require("bootstrap");
+
 $(function() {
     $(".carousel").carousel( { interval: 2000 } );
     $("#carouselButton").click(function(){
@@ -11,4 +13,9 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
+
+    
+     
+    
+  
 });
